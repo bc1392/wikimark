@@ -1,0 +1,25 @@
+[={This is a comment.}=]
+[#1{Hello, World!}#1]
+
+[:{
+    Welcome to the first test of [*{WikiMark}*]! Did you know you can link to pages like [/"https://google.com"{Google}/]? Why write [;{~<strong~>test~</strong~>};] when you can write [;{~[!~{test~}!~]};]?
+}:]
+
+[:v{Better yet, you can compress the following code:}:]
+[;;{~<!DOCTYPE html~>
+~<html~>
+    ~<head~>
+        ~<title~>Test~</title~>
+    ~</head~>
+    ~<body~>
+        ~<h1~>Hello, World!~</h1~>
+        ~<p~>This is a test.~</p~>
+    ~</body~>
+~</html~>};;]
+[:^v{Into something as simple as this:}:]
+[;;{~[#1~{Hello, World!~}#1~]
+~[:~{This is a test.~}:~]};;]
+
+[:{
+    This is a [!{test}!].
+}:]
